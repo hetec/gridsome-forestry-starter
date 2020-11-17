@@ -1,0 +1,28 @@
+---
+label: test
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: number
+  name: year
+  label: year
+- type: text
+  name: title
+  label: title
+- type: text
+  name: category
+  label: category
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: project_bg_color
+  label: project_bg_color
+- type: text
+  name: project_fg_color
+  label: project_fg_color
