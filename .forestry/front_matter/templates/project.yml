@@ -35,6 +35,18 @@ fields:
   config:
     color_format: Hex
   label: Foreground color
+- name: test
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
+  label: test
 pages:
 - projects/3d-graff.md
 - projects/chelsea-landmark.md
